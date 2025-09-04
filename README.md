@@ -20,7 +20,8 @@ MLLM-based dual-stream synergistic model for multimodal aspect-based sentiment a
 
 ### Main Results 
 
-![Main Result](./result.png)
+![Result](./result.png)
+
 
 ## Citation
 
