@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 252.93 364.23">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        font-family: TimesNewRomanPSMT, 'Times New Roman';
+      }
+
+      .cls-8 {
+        fill: #333;
+      }
+
+      .cls-8, .cls-5, .cls-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-8, .cls-9 {
+        stroke: #333;
+      }
+
+      .cls-3 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        fill: #f9f7f7;
+        font-size: 14px;
+        stroke: #f9f4f4;
+        stroke-width: .25px;
+      }
+
+      .cls-10, .cls-11 {
+        font-family: TimesNewRomanPS-BoldMT, 'Times New Roman';
+        font-weight: 700;
+      }
+
+      .cls-12, .cls-7 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-13 {
+        font-size: 9px;
+      }
+
+      .cls-14 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-9 {
+        fill: none;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6, .cls-16 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-17 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-18 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-11 {
+        letter-spacing: 3.75em;
+      }
+
+      .cls-19 {
+        letter-spacing: -.04em;
+      }
+    </style>
+  </defs>
+  <g id="_图层_3" data-name="图层 3">
+    <path class="cls-9" d="M252.43,20.48V320.88c0,2.85-2.19,5.16-4.89,5.16H5.39c-2.7,0-4.89-2.31-4.89-5.16V20.33"/>
+    <path class="cls-8" d="M252.43,20.44H.5V5.39C.5,2.69,2.69,.5,5.39,.5H247.54c2.7,0,4.89,2.19,4.89,4.89v15.94"/>
+    <text class="cls-5" transform="translate(111.18 14.75)"><tspan x="0" y="0">Prompt</tspan></text>
+    <text class="cls-13" transform="translate(9.82 34.44)"><tspan class="cls-10"><tspan x="0" y="0">##</tspan><tspan class="cls-14" x="9" y="0"> </tspan><tspan class="cls-1" x="11.09" y="0">T</tspan><tspan x="16.26" y="0">ask Name</tspan></tspan><tspan class="cls-2"><tspan x="0" y="10.8">Multi-modal</tspan><tspan class="cls-18" x="45.5" y="10.8"> </tspan><tspan x="47.25" y="10.8">Aspect-Based Sentiment</tspan><tspan class="cls-12" x="135.98" y="10.8"> </tspan><tspan class="cls-15" x="137.73" y="10.8">Analysis </tspan></tspan><tspan class="cls-10"><tspan x="0" y="21.6">##</tspan><tspan class="cls-14" x="9" y="21.6"> </tspan><tspan class="cls-1" x="11.09" y="21.6">T</tspan><tspan x="16.26" y="21.6">ask Int</tspan><tspan class="cls-16" x="43.03" y="21.6">r</tspan><tspan x="46.86" y="21.6">oduction</tspan></tspan><tspan class="cls-2"><tspan class="cls-17" x="0" y="32.4">Y</tspan><tspan x="5.6" y="32.4">ou are a natural language processing expert specializing in </tspan></tspan><tspan class="cls-2"><tspan x="0" y="43.2">multi-modal aspect-based sentiment analysis.</tspan><tspan class="cls-19" x="163.46" y="43.2"> </tspan><tspan class="cls-17" x="165.38" y="43.2">Y</tspan><tspan x="170.97" y="43.2">ou will receive </tspan></tspan><tspan class="cls-2"><tspan x="0" y="54">tweet content consisting of tweet text, aspect terms, and images.</tspan></tspan><tspan class="cls-2"><tspan x="0" y="64.8">Please carefully analyze according to the following steps:</tspan></tspan><tspan class="cls-2"><tspan x="0" y="75.6" xml:space="preserve">    1. Extract the text from the image: Extract  any identifiable </tspan></tspan><tspan class="cls-2"><tspan x="0" y="86.4" xml:space="preserve">        text , such as titles, labels, or descriptions.</tspan></tspan><tspan class="cls-2"><tspan x="0" y="97.2" xml:space="preserve">    2.</tspan><tspan class="cls-18" x="15.75" y="97.2"> </tspan><tspan class="cls-15" x="17.5" y="97.2">Aspect sentiment analysis based on the image: Based on the </tspan></tspan><tspan class="cls-2"><tspan x="0" y="108" xml:space="preserve">        tweet text, analyze how the image relates to the aspect term </tspan></tspan><tspan class="cls-2"><tspan x="0" y="118.8" xml:space="preserve">        and briefly analyze the sentiment conveyed by the image </tspan></tspan><tspan class="cls-2"><tspan x="0" y="129.6" xml:space="preserve">        regarding the aspect term.</tspan></tspan><tspan class="cls-2"><tspan x="0" y="140.4" xml:space="preserve">    3.</tspan><tspan class="cls-18" x="15.75" y="140.4"> </tspan><tspan class="cls-15" x="17.5" y="140.4">Aspect term background information: Based on the tweet </tspan></tspan><tspan class="cls-2"><tspan x="0" y="151.2" xml:space="preserve">        text, aspect term, and image, provide brief background </tspan></tspan><tspan class="cls-2"><tspan x="0" y="162" xml:space="preserve">        information to explain the potential meaning or </tspan></tspan><tspan class="cls-2"><tspan x="0" y="172.8" xml:space="preserve">        socio-cultural context of the aspectterm in this context.</tspan></tspan><tspan class="cls-2"><tspan x="0" y="183.6" xml:space="preserve">    4.</tspan><tspan class="cls-18" x="15.75" y="183.6"> </tspan><tspan class="cls-15" x="17.5" y="183.6">Aspect sentiment analysis based on the tweet:</tspan><tspan class="cls-18" x="182.46" y="183.6"> </tspan><tspan class="cls-15" x="184.21" y="183.6">Analyze how </tspan></tspan><tspan class="cls-2"><tspan x="0" y="194.4" xml:space="preserve">        the tweet text relates to the aspect term and analyze the </tspan></tspan><tspan class="cls-2"><tspan x="0" y="205.2" xml:space="preserve">        sentiment conveyed in the tweet regarding the aspect term.</tspan></tspan><tspan class="cls-2"><tspan x="0" y="216" xml:space="preserve">    </tspan></tspan><tspan class="cls-2"><tspan x="0" y="237.6">.</tspan></tspan></text>
+    <text class="cls-13" transform="translate(10.46 253.28)"><tspan class="cls-10"><tspan x="0" y="0">## Input</tspan></tspan><tspan class="cls-10" x="0" y="10.8" xml:space="preserve">       </tspan><tspan class="cls-3" x="15.75" y="10.8">T</tspan><tspan class="cls-2" x="20.62" y="10.8">weet,</tspan><tspan class="cls-7" x="39.86" y="10.8"> </tspan><tspan class="cls-2" x="41.61" y="10.8">Aspec</tspan><tspan class="cls-6" x="64.1" y="10.8"> </tspan><tspan class="cls-3" x="66.19" y="10.8">T</tspan><tspan class="cls-4" x="71.06" y="10.8">erm ,Image</tspan><tspan class="cls-10"><tspan x="0" y="21.6">## Structu</tspan><tspan class="cls-14" x="40.25" y="21.6">r</tspan><tspan x="44.08" y="21.6">ed output</tspan></tspan><tspan class="cls-10" x="0" y="32.4" xml:space="preserve">       </tspan><tspan class="cls-2" x="15.75" y="32.4">Extract the text from the image:</tspan><tspan class="cls-2"><tspan x="0" y="43.2" xml:space="preserve">      </tspan><tspan class="cls-18" x="13.5" y="43.2"> </tspan><tspan class="cls-15" x="15.25" y="43.2">Aspect sentiment analysis based on the image:</tspan></tspan><tspan class="cls-2"><tspan x="0" y="54" xml:space="preserve">      </tspan><tspan class="cls-18" x="13.5" y="54"> </tspan><tspan class="cls-15" x="15.25" y="54">Aspect term background information:</tspan></tspan><tspan class="cls-2"><tspan x="0" y="64.8" xml:space="preserve">      </tspan><tspan class="cls-18" x="13.5" y="64.8"> </tspan><tspan class="cls-15" x="15.25" y="64.8" xml:space="preserve">Aspect sentiment analysis based on the tweet:  </tspan></tspan><tspan class="cls-11"><tspan x="0" y="75.6">	</tspan></tspan></text>
+  </g>
+</svg>
