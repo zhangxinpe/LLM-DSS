@@ -9,6 +9,8 @@ MLLM-based dual-stream synergistic model for multimodal aspect-based sentiment a
 
 ## Prompt Template
 
+**Prompts for image description and external knowledge generation**
+
 ![提示词模板](./prompt.png)
 
 
