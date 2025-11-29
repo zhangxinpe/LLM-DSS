@@ -5,7 +5,7 @@ MLLM-based dual-stream synergistic model for multimodal aspect-based sentiment a
 
 ## Abstract
 
-![模型图](./main.png)Multimodal aspect-based sentiment analysis (MABSA) aims to determine the sentiment polarity toward specific aspects within image–text content, thereby supporting public-opinion analysis and information mining. However, existing methods face two key challenges: (i) cross-modal interactions may hinder the learning of syntactic structure; and (ii) external knowledge is often not fully exploited to enrich the aspect context. To address these issues, we propose an MLLM-based dual-stream synergistic model (LLM-DSS). Specifically, to balance cross-modal interaction and syntactic structure learning, we adopt a parallel dual-stream architecture. We construct a knowledge-enhanced multimodal stream and a syntax-enhanced text stream, respectively, and introduce a collaborative alignment mechanism to promote synergistic modeling across different streams. To supplement aspectual context and bridge modal gaps, we leverage MLLM to generate aspect-relevant external knowledge and image descriptions. Additionally, we designed a Context-aware Knowledge Filter Module (CFK) and a Multi-View Syntactic Fusion Module (MSF) to filter redundant external knowledge and aggregate multi-view syntactic information, respectively. Experiments on two public MABSA datasets demonstrate that the proposed method achieves state-of-the-art performance.
+![模型图](./Main_3.png)Multimodal aspect-based sentiment analysis (MABSA) aims to determine the sentiment polarity toward specific aspects within image–text content, thereby supporting public-opinion analysis and information mining. However, existing methods face two key challenges: (i) cross-modal interactions may hinder the learning of syntactic structure; and (ii) external knowledge is often not fully exploited to enrich the aspect context. To address these issues, we propose an MLLM-based dual-stream synergistic model (LLM-DSS). Specifically, to balance cross-modal interaction and syntactic structure learning, we adopt a parallel dual-stream architecture. We construct a knowledge-enhanced multimodal stream and a syntax-enhanced text stream, respectively, and introduce a collaborative alignment mechanism to promote synergistic modeling across different streams. To supplement aspectual context and bridge modal gaps, we leverage MLLM to generate aspect-relevant external knowledge and image descriptions. Additionally, we designed a Context-aware Knowledge Filter Module (CFK) and a Multi-View Syntactic Fusion Module (MSF) to filter redundant external knowledge and aggregate multi-view syntactic information, respectively. Experiments on two public MABSA datasets demonstrate that the proposed method achieves state-of-the-art performance.
 
 ## Prompt Template
 
@@ -36,6 +36,16 @@ You are a natural language sentiment analysis expert. You will receive a set of 
 **We provide the preprocessed datasets, and the sources of the original datasets are listed as follows.** [TomBERT](https://dl.acm.org/doi/10.1145/3474085.3475692)
 
 
+
+### RUN
+
+
+
+------
+
+1. **Download the pre-trained model and place it in the model directory**:
+    https://huggingface.co/vinai/bertweet-base
+2. **Run the `train.py` file**
 
 ## Citation
 
